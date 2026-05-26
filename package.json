@@ -1,0 +1,16 @@
+{
+  "name": "conversor-pdf-epub",
+  "version": "1.0.0",
+  "description": "Conversor de PDF a EPUB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jszip": "^3.10.1",
+    "multer": "^2.1.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
